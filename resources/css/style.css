@@ -1,0 +1,83 @@
+/* shared across all */
+
+body{}
+
+header{
+  border: 1px solid black;
+}
+
+.headline{
+  border: 1px solid black;
+  width: 1200px;
+}
+
+/* main mission container */
+
+.missioncontainer{
+  border: 1px solid black;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.mission{
+  height: 700px;
+  border: 1px solid black;
+  background-image: url();
+  display: flex;
+  align-items: center;
+}
+
+/* main tea container */
+.teacontainer{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+/* child of .teacontainer */
+.teas{
+  border: 1px solid black;
+  background-color: lightgreen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+}
+
+/* child of .teas container */
+
+.tea{
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* child of .tea container */
+
+.box{
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+.boxname{
+  border: 1px solid black;
+}
+
+/* main location container */
+
+.locationcontainer{
+  display: flex;
+  justify-content: center;
+}
+.locations{
+  border: 1px solid black;
+  height: 500px;
+  width: 1200px;
+  background-color: pink;
+}
