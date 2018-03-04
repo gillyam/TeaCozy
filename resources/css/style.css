@@ -1,5 +1,4 @@
 /* shared */
-
 body{
   font-family: Helvetica;
   font-size: 22px;
@@ -9,7 +8,6 @@ body{
 }
 
 /* header */
-
 header{
   border-bottom: 1px solid seashell;
   height: 69px;
@@ -46,7 +44,6 @@ color: seashell;
 }
 
 /* mission container */
-
 #missioncontainer{
   display: flex;
   justify-content: center;
@@ -65,7 +62,6 @@ color: seashell;
 }
 
 /* tea container */
-
 #teacontainer{
   display: flex;
   align-items: center;
@@ -105,12 +101,10 @@ color: seashell;
 }
 
 /*location container */
-
 #locationcontainer{
   display: flex;
   justify-content: center;
 }
-
 .locationheadline{
   width: 1200px;
   height: 50px;
@@ -118,8 +112,6 @@ color: seashell;
   margin-top: 30px;
   text-align: center;
 }
-
-/* child of .locationcontainer*/
 .locations{
   width: 1200px;
   height: 550px;
@@ -129,8 +121,6 @@ color: seashell;
   align-content: flex-start;
   background-image: url("../images/img-locations-background.jpg");
 }
-
-/*child of .locations*/
 .location{
   height: 300px;
   width: 300px;
@@ -154,6 +144,5 @@ color: seashell;
 /*footer*/
 footer{
  margin: 20px;
- <p>copyright The Tea Cozy 2017</p>
  text align: left;
 }
